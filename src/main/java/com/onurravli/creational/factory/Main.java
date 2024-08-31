@@ -5,6 +5,8 @@ public class Main {
         try {
             Product p1 = Factory.createProduct("a");
             p1.create();
+            Product p2 = Factory.createProduct("b");
+            p2.create();
         } catch (Exception e) {
             System.out.println("Null pointer exception.");
         }
